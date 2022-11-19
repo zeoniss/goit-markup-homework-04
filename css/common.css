@@ -1,0 +1,66 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+/* Label */
+.web-label {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+}
+.studio-label {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+}
+
+/* Header */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--title-text-color);
+}
+.contacts .link:hover {
+  color: var(--accent-color);
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.label-footer {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.address .street {
+  color: var(--primary-white-color);
+}
+.address .contact {
+  color: rgba(255, 255, 255, 0.6);
+}
