@@ -42,7 +42,6 @@ h6 {
 /* Header */
 .page-header {
   background-color: var(--primary-white-color);
-  outline: 3px solid red;
 }
 .web-label {
   text-decoration: none;
@@ -59,17 +58,6 @@ h6 {
   display: flex;
   margin-left: 93px;
 }
-/* .site-nav .item-nav {
-  outline: 1px solid red;
-
-  /* margin-right: 50px; */
-
-/* .site-nav .item-nav:last-child {
-  margin-right: 0;
-} */
-/* .site-nav .item-nav:not(:last-child) {
-  margin-right: 50px;
-} */
 .site-nav .item-nav + .item-nav {
   margin-left: 50px;
 }
@@ -117,7 +105,7 @@ h6 {
 /* Hero */
 .hero {
   text-align: center;
-  background-color: var(--secondary-bg-color);
+  /* background-color: var(--secondary-bg-color); */
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -130,7 +118,7 @@ h6 {
   padding-top: 200px;
 }
 .container.hero {
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   text-align: center;
 
   height: 600px;
